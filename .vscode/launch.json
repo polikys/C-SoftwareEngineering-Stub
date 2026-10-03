@@ -4,8 +4,11 @@
         {
             "name": "Main",
             "type": "cppdbg",
-            "program" : "./main",
+            "program" : "${workspaceFolder}/build/main",
             "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "preLaunchTask": "build"
         }
     ]
 }
